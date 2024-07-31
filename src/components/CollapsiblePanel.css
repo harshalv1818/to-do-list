@@ -1,0 +1,8 @@
+.co-panel-children{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    /* border: 2px solid red; */
+    height:100%;
+    font-size: large;
+}
