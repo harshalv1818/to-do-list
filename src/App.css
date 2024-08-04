@@ -22,12 +22,14 @@
 }
 .container-panel>h3{
   text-align: center;
+  
 }
 .container-panel{
   width:32%;
   height:500px;
  background-color: rgb(245, 245, 245);
  box-shadow: rgb(168, 168, 168) 3px 3px;
+ overflow: scroll;
 }
 
 .co-panel{
@@ -44,3 +46,41 @@
 .co-panel:hover{
   box-shadow: black 2px 2px 3px 3px;
 }
+
+table{
+  
+  /* border: 2px solid red; */
+  width: 100%;
+  
+}
+tr{
+  /* border: 2px solid blue; */
+  /* padding:2px; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  /* width: 100%; */
+  flex-grow: 1;
+  
+}
+th{
+  /* width:33%; */
+  overflow: hidden;
+  /* border: 2px solid red; */
+}
+.task-name{
+  flex-grow: 3;
+  
+}
+
+#donut-chart{
+  height:50%;
+  width: 55%;
+  margin: auto;
+  /* border: 2px solid red; */
+  justify-content: center;
+}
+
+
+
